@@ -19,14 +19,14 @@ main = [
     InlineQueryResultArticle(
         title="Whisper Bot",
         input_message_content=InputTextMessageContent("Write Target User's @username or id at the end of your message."),
-        url="https://t.me/StarkBots",
+        url="https://t.me/DevanshXBots",
         description="Write Target User's @username or id at the end of your message.",
-        thumb_url="https://telegra.ph/file/33af12f457b16532e1383.jpg",
+        thumb_url="https://te.legra.ph/file/99b8e82bd5af08e9b3b60.jpg",
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("Learn More", url="https://t.me/WhisperStarkBot?start=start")],
                 [InlineKeyboardButton("🔒 Send a Whisper 🔒", switch_inline_query="")],
-                [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")]
+                [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/DevanshXBots")]
             ]
         ),
     )
@@ -81,9 +81,9 @@ async def previous_target(sender):
                   title=text1,
                   input_message_content=InputTextMessageContent(
                       f"A whisper message to {mention}" + " " + text2),
-                  url="https://t.me/StarkBots",
+                  url="https://t.me/DevanshXBots",
                   description=text2,
-                  thumb_url="https://telegra.ph/file/33af12f457b16532e1383.jpg",
+                  thumb_url="https://te.legra.ph/file/99b8e82bd5af08e9b3b60.jpg",
                   reply_markup=InlineKeyboardMarkup(
                       [
                           [
@@ -110,7 +110,7 @@ async def answer(bot: Client, query):
     if query.query == "":
         await query.answer(
             results=main,
-            switch_pm_text="🔒 Learn How to send Whispers",
+            switch_pm_text="Learn How to send Whispers",
             switch_pm_parameter="start"
         )
     elif len(query_list) == 1:
@@ -118,7 +118,7 @@ async def answer(bot: Client, query):
         results = await previous_target(sender)
         await query.answer(
             results,
-            switch_pm_text="🔒 Learn How to send Whispers",
+            switch_pm_text="Learn How to send Whispers",
             switch_pm_parameter="start"
         )
     elif len(query_list) >= 2:
@@ -132,7 +132,7 @@ async def answer(bot: Client, query):
             results = await previous_target(sender)
             await query.answer(
                 results,
-                switch_pm_text="🔒 Learn How to send Whispers",
+                switch_pm_text="Learn How to send Whispers",
                 switch_pm_parameter="start"
             )
             return
@@ -152,14 +152,14 @@ async def answer(bot: Client, query):
                     InlineQueryResultArticle(
                         title=text1,
                         input_message_content=InputTextMessageContent(f"A whisper message to {target_user.mention}" + " " + text2),
-                        url="https://t.me/StarkBots",
+                        url="https://t.me/DevanshXBots",
                         description=text2,
-                        thumb_url="https://telegra.ph/file/33af12f457b16532e1383.jpg",
+                        thumb_url="https://te.legra.ph/file/99b8e82bd5af08e9b3b60.jpg",
                         reply_markup=InlineKeyboardMarkup(
                             [
                                 [
                                     InlineKeyboardButton(
-                                        "🔐 Show Message 🔐",
+                                        "Show Message 🔐",
                                         callback_data=str(data_list),
                                     )
                                 ]
@@ -167,7 +167,7 @@ async def answer(bot: Client, query):
                         ),
                     )
                 ],
-                switch_pm_text="🔒 Learn How to send Whispers",
+                switch_pm_text="Learn How to send Whispers",
                 switch_pm_parameter="start"
             )
             await check_for_users(receiver)
@@ -176,7 +176,7 @@ async def answer(bot: Client, query):
             results = await previous_target(sender)
             await query.answer(
                 results,
-                switch_pm_text="🔒 Learn How to send Whispers",
+                switch_pm_text="Learn How to send Whispers",
                 switch_pm_parameter="start"
             )
     await check_for_users(sender)
