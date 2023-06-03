@@ -2,7 +2,7 @@
 
 > A star ⭐ from you means a lot to us!
 
-<p align="center"><a href="https://www.github.com/StarkBotsIndustries/WhisperBot"><img src="https://telegra.ph/file/33af12f457b16532e1383.jpg" width="5000"></a></p>
+<p align="center"><a href="https://www.github.com/Devansh-Bots/DevXWhisperBot"><img src="https://te.legra.ph/file/743acde7d52d4ef7588f4.mp4" width="5000"></a></p>
 
 Telegram bot for Whisper Message.
 
@@ -12,7 +12,7 @@ Telegram bot for Whisper Message.
 
 ### Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/StarkBotsIndustries/WhisperBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Devansh-Bots/DevXWhisperBot)
 
 1. Tap on above button and fill `API_ID`, `API_HASH`, `BOT_TOKEN`.
 2. Then tap "Deploy App" below it. Wait till deploying is complete (will take atmost 2 minutes).
@@ -82,9 +82,9 @@ Telegram bot for Whisper Message.
 
 ## Support
 
-Channel :- [@StarkBots](https://t.me/StarkBots)
+Channel :- [@DevanshXBOts](https://t.me/DevanshXBots)
 
-Group Chat :- [@StarkBotsChat](https://t.me/StarkBotsChat)
+Group Chat :- [@Devil_BOts_Support](https://t.me/Devil_BOts_Support)
 
 ## :)
 
