@@ -8,7 +8,7 @@ from pyrogram.types import InlineKeyboardMarkup
 async def start(bot, msg):
 	user = await bot.get_me()
 	mention = user["mention"]
-	await bot.send_sticker(msg.chat.id, "CAACAgIAAxkBAAIal2EVKvGYCpidwcjowvL-j8zAB9RcAAK-DAACX_g4ShXqde_-mMrnHgQ")
+	await bot.send_sticker(msg.chat.id, "CAACAgUAAxkBAAEBIB9kevMn6oOO3TAnAAERsxy9JwJbzhEAAtcKAAIoU-hUrC2ebUsar3wvBA")
 	await bot.send_message(
 		msg.chat.id,
 		Data.START.format(msg.from_user.mention, mention),
