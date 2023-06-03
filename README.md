@@ -2,7 +2,7 @@
 
 > A star ⭐ from you means a lot to us!
 
-<p align="center"><a href="https://www.github.com/Devansh-Bots/DevXWhisperBot"><img src="https://te.legra.ph/file/743acde7d52d4ef7588f4.mp4" width="5000"></a></p>
+<p align="center"><a href="https://www.github.com/Devansh-Bots/DevXWhisperBot"><img src="https://te.legra.ph/file/99b8e82bd5af08e9b3b60.jpg" width="5000"></a></p>
 
 Telegram bot for Whisper Message.
 
