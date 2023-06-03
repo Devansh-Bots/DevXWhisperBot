@@ -14,41 +14,41 @@ Only that friend and you will be able to read the message even though others are
 
 To see how to use me press 'How to Use' below.
 
-By @StarkBots
+By @DevanshXBots
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("🔒 Send a Whisper 🔒", switch_inline_query="")],
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
+        [InlineKeyboardButton("🔐 Send a Whisper 🔐", switch_inline_query="")],
+        [InlineKeyboardButton(text="Return Home", callback_data="home")],
     ]
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("🔒 Send a Whisper 🔒", switch_inline_query="")
+            InlineKeyboardButton("🔐 Send a Whisper 🔐", switch_inline_query="")
         ],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("❄ About ❄", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("More Amazing bots", url="https://t.me/DevanshXBots")],
+        [InlineKeyboardButton("💸 Support Group 💸", url="https://t.me/Devil_Bots_Support")],
     ]
 
     # Help Message
     HELP = """
 Just type the message in below format in any chat.
 
-`@WhisperStarkBot your_message friend_username/id`
+`@DevXWhisperBot your_message friend_username/id`
     """
 
     # About Message
     ABOUT = """
 **About This Bot** 
 
-Bot created by @StarkBots
+Bot created by @DevanshXBots
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/WhisperBot)
+Source Code : [Click Here](https://github.com/Devansh-Bots/DevXWhisperBot)
 
 Inspired By : nnbbot
 
@@ -56,5 +56,5 @@ Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Developer : @DamnDevansh
     """
